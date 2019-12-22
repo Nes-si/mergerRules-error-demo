@@ -1,0 +1,54 @@
+{
+  "name": "mergerRules-error-demo",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nes-si/mergerRules-error-demo"
+  },
+  "scripts": {
+    "start": "node build/server.js",
+    "build": "node build/build.js",
+    "localrun": "node build/local.run.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-export-namespace-from": "^7.7.4",
+    "@babel/plugin-proposal-numeric-separator": "^7.7.4",
+    "@babel/plugin-proposal-throw-expressions": "^7.7.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/plugin-syntax-import-meta": "^7.7.4",
+    "@babel/plugin-transform-react-jsx-source": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.1",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "ora": "^4.0.3",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "shelljs": "^0.8.3",
+    "style-loader": "^1.0.1",
+    "sugarss": "^2.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "@babel/runtime": "^7.7.4",
+    "core-js": "^3.4.7",
+    "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-css-modules": "^4.7.11",
+    "react-dom": "^16.12.0",
+    "regenerator-runtime": "^0.13.3",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
